@@ -35,6 +35,9 @@ body {
     font-weight: 300;
 }
 
+.blue {
+    color: #42a5f4;
+}
 /**
 * 2. Homepage
 **/
@@ -42,7 +45,18 @@ body {
 /**
 * a. Section Header
 **/
+.bg-header {
+    background: url("assets/images/img-banner.png") no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    padding: 2rem 0 35%;
+}
 
+.text-logo {
+    font-size: 17px;
+    font-weight: 500;
+}
 /**
 * b. Section Outsource
 **/

@@ -1,0 +1,77 @@
+/**
+Theme Name: LinovhR Landing Page
+Theme URI: http://www.linovhr.com
+Author: Lani Asep Sutisna
+Author URI: www.ekuiva.com
+Description: Ini adalah template landing page payroll ads untuk project linovhr.
+Version: 1.0
+**/
+
+
+/**
+* Table of Content
+*
+* 1. General
+* 2. Homepage
+*    a. Section Header
+*    b. Section Outsource
+*    c. Section Strong Point
+*    d. Pricing
+* 2. Footer
+* 3. Responsive Mobile & Tablet
+*    a. Responsive 0 - 800 Mobile
+*    b. Responsive 800 - 1000 Tablet
+*    c. Responsive 1000 Desktop
+**/
+
+/**
+* 1. General
+**/
+
+@import url("assets/css/fonts-style.css");
+
+body {
+    font-family: 'Roboto', serif;
+    font-weight: 300;
+}
+
+/**
+* 2. Homepage
+**/
+
+/**
+* a. Section Header
+**/
+
+/**
+* b. Section Outsource
+**/
+
+/**
+* c. Section Strong Point
+**/
+
+/**
+* d. Pricing
+**/
+
+/**
+* 2. Footer
+**/
+
+/**
+* 3. Responsive Mobile & Tablet
+**/
+
+/**
+* a. Responsive 0 - 800 Mobile
+**/
+
+/**
+* b. Responsive 800 - 1000 Tablet
+**/
+
+/**
+* c. Responsive 1000 Desktop
+**/
+

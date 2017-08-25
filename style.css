@@ -31,12 +31,48 @@ Version: 1.0
 @import url("assets/css/fonts-style.css");
 
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
+a {
+    cursor: pointer;
+}
+
+.f-t {
+    font-weight: 200;
+}
+
+.f-l {
+    font-weight: 300;
+}
+
+.f-n {
+    font-weight: 400;
+}
+
+.f-m {
+    font-weight: 500;
+}
+
+.f-b {
+    font-weight: 500;
+}
 .blue {
-    color: #42a5f4;
+    color: #42a5f4 !important;
+}
+
+.btn-request:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-request {
+    border-radius: 23px;
+    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: .78rem 1.5rem;
+    box-shadow: 1px 2px 0px 0px #1e88e5;
 }
 /**
 * 2. Homepage
@@ -50,12 +86,14 @@ body {
     background-size: cover;
     max-width: 100%;
     height: auto;
-    padding: 2rem 0 35%;
+}
+.text-logo {
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.text-logo {
-    font-size: 17px;
-    font-weight: 500;
+.pt-content {
+    padding-top: 17rem;
 }
 /**
 * b. Section Outsource
@@ -80,12 +118,18 @@ body {
 /**
 * a. Responsive 0 - 800 Mobile
 **/
+@media (min-width: 0px) and (max-width: 800px) {
 
+}
 /**
 * b. Responsive 800 - 1000 Tablet
 **/
+@media (min-width: 800px) and (max-width: 1000px) {
 
+}
 /**
 * c. Responsive 1000 Desktop
 **/
+@media (min-width: 1000px) {
 
+}

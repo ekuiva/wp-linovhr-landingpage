@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d1ea30a-f4c5-4ca9-ba1a-bf86b2869076" name="Default" comment="">
+    <list default="true" id="7d1ea30a-f4c5-4ca9-ba1a-bf86b2869076" name="Default" comment="Update homepage">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg-item-payroll-hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/bg-item-payroll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/item-payroll/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/item-payroll/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/item-payroll/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/item-payroll/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/item-payroll/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/libs/bootstrap-tabcollapse/bootstrap-tabcollapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/libs/bootstrap-tabcollapse/css/bootstrap/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/libs/bootstrap-tabcollapse/js/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/libs/bootstrap-tabcollapse/js/jquery-1.10.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/libs/bootstrap-tabcollapse/js/jquery-migrate-1.2.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +36,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="109" column="88" lean-forward="false" selection-start-line="109" selection-start-column="88" selection-end-line="109" selection-end-column="88" />
+            <state relative-caret-position="187">
+              <caret line="141" column="26" lean-forward="true" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -140,7 +154,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../em_dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../email-gettime" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -370,14 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -386,10 +392,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="104" lean-forward="false" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="109" column="88" lean-forward="false" selection-start-line="109" selection-start-column="88" selection-end-line="109" selection-end-column="88" />
+        <state relative-caret-position="187">
+          <caret line="141" column="26" lean-forward="true" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />

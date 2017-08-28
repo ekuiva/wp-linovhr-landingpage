@@ -105,6 +105,10 @@ a:focus, a:hover {
     box-shadow: 1px 1px 1px 1px grey;
 }
 
+.margin-super-upper {
+    margin-top: 5rem;
+}
+
 .margin-upper {
     margin-top: 3rem;
 }
@@ -202,6 +206,11 @@ a:focus, a:hover {
 /**
 * 2. Footer
 **/
+
+.bg-footer {
+    background-color: #3a3a3a;
+    font-size: 15px;
+}
 
 /**
 * 3. Responsive Mobile & Tablet

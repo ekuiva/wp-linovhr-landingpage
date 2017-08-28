@@ -195,6 +195,10 @@ a:focus, a:hover {
     font-size: 2rem;
     font-weight: 500;
 }
+
+.pricing {
+    box-shadow: 1px 2px 0px 0px #135c9c;
+}
 /**
 * 2. Footer
 **/

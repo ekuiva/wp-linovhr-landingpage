@@ -39,6 +39,9 @@ a {
     cursor: pointer;
 }
 
+a:focus, a:hover {
+    color: grey !important;
+}
 .f-t {
     font-weight: 200;
 }
@@ -62,6 +65,10 @@ a {
     color: #42a5f4 !important;
 }
 
+.background-blue {
+    background-color: #03a9f4 !important;
+    color: #fff;
+}
 .btn-request:hover {
     background-color: #f1f1f1;
 }
@@ -70,9 +77,44 @@ a {
     border-radius: 23px;
     background-color: #ffffff;
     font-size: 17px;
-    font-weight: 500;
     padding: .78rem 1.5rem;
     box-shadow: 1px 2px 0px 0px #1e88e5;
+}
+
+.btn-payroll {
+    border-radius: 23px;
+    padding: .78rem 1.5rem;
+    box-shadow: 1px 2px 0px 0px #116ebf;
+    width: 83%;
+    margin-top: -2rem;
+    line-height: 1em;
+    height: 4rem;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.btn-payroll:hover {
+    color: #fff !important;
+}
+
+.btn-payroll:visited {
+    color: #fff !important;
+}
+
+.img-payroll {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.margin-upper {
+    margin-top: 3rem;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+.margin-middle {
+    margin-top: 1rem;
 }
 /**
 * 2. Homepage
@@ -84,6 +126,7 @@ a {
 .bg-header {
     background: url("assets/images/img-banner.png") no-repeat;
     background-size: cover;
+    background-position: right;
     max-width: 100%;
     height: auto;
 }
@@ -119,7 +162,16 @@ a {
 * a. Responsive 0 - 800 Mobile
 **/
 @media (min-width: 0px) and (max-width: 800px) {
+    /**
+    * a. Header
+    **/
+    .text-header {
+        font-size: 36px;
+    }
 
+    .text-sub-header {
+        font-size: 30px;
+    }
 }
 /**
 * b. Responsive 800 - 1000 Tablet
@@ -133,3 +185,4 @@ a {
 @media (min-width: 1000px) {
 
 }
+

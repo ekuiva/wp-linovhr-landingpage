@@ -145,7 +145,37 @@ a:focus, a:hover {
 /**
 * c. Section Strong Point
 **/
+.bg-strong-point {
+    background: url("assets/images/bg-payroll.png");
+}
 
+.bg-item-payroll {
+    background: url("assets/images/bg-item-payroll.png") no-repeat;
+    background-position: center;
+    background-size: 7rem;
+}
+
+.bg-item-payroll-hover {
+    background: url("assets/images/bg-item-payroll-hover.png") no-repeat;
+    background-position: center;
+    background-size: 7rem;
+}
+
+.margin-top-payroll {
+    margin-top: 10rem;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: rgba(214, 214, 214, 0);;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: rgba(214, 214, 214, 0);;
+}
+
+.owl-nav {
+    text-align: right !important;
+}
 /**
 * d. Pricing
 **/

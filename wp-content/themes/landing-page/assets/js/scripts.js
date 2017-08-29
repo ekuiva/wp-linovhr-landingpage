@@ -34,6 +34,10 @@ $(document).ready(function () {
                     items: 2,
                     nav: false
                 },
+                400: {
+                    items: 3,
+                    nav: false
+                },
                 600: {
                     items: 3,
                     nav: false

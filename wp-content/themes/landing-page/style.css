@@ -287,6 +287,42 @@ a:focus, a:hover {
     .text-sub-header {
         font-size: 30px;
     }
+
+    /**
+    * b. Slider
+    **/
+    .margin-top-payroll {
+        margin-top: 1rem;
+        margin-bottom: -8rem;
+    }
+
+    .bg-strong-point {
+        padding-bottom: 11rem;
+        background-position: right;
+        background-size: 93rem;
+    }
+
+    .margin-top-mobile {
+        margin-top: 9rem;
+    }
+
+    /**
+    * c. Pricing
+    **/
+    .f-mobile {
+        font-size: 13px;
+    }
+
+    /**
+    * d. Footer
+    **/
+    .align-mobile {
+        text-align: left !important;
+    }
+
+    .padding-mobile {
+        padding-bottom: 1rem;
+    }
 }
 
 /**

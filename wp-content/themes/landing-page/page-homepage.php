@@ -131,7 +131,7 @@ Template Name: Home Page
                 </div>
             </div>
             <div class="col-md-6 text-right text-white margin-top-payroll">
-                <h1 class="f-t"><span class="f-l">Strong Points</span> Our Payroll Outsourcing</h1>
+                <h1 class="f-t margin-top-mobile"><span class="f-l">Strong Points</span> Our Payroll Outsourcing</h1>
                 <div id="sync1" class="owl-carousel owl-theme margin-top">
                     <div class="item">
                         <h4>Online</h4>
@@ -179,7 +179,7 @@ Template Name: Home Page
                 </div>
                 <div class="box-pricing-blue text-center p-4">
                     <div class="desc text-white pt-3 pb-5">for less 100 employees</div>
-                    <a href="#" class="btn btn-request pricing text-uppercase f-m">Request a quote</a>
+                    <a href="#" class="btn btn-request pricing text-uppercase f-m f-mobile">Request a quote</a>
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@ Template Name: Home Page
                 </div>
                 <div class="box-pricing-blue text-center p-4">
                     <div class="desc text-white pt-3 pb-5">for 100 - 500 employees</div>
-                    <a href="#" class="btn btn-request pricing text-uppercase f-m">Request a quote</a>
+                    <a href="#" class="btn btn-request pricing text-uppercase f-m f-mobile">Request a quote</a>
                 </div>
             </div>
         </div>
@@ -205,7 +205,7 @@ Template Name: Home Page
                 </div>
                 <div class="box-pricing-blue text-center p-4">
                     <div class="desc text-white pt-3 pb-5">for more 500 employees</div>
-                    <a href="#" class="btn btn-request pricing text-uppercase f-m">Request a quote</a>
+                    <a href="#" class="btn btn-request pricing text-uppercase f-m f-mobile">Request a quote</a>
                 </div>
             </div>
         </div>
@@ -216,19 +216,19 @@ Template Name: Home Page
 <div class="container-fluid bg-footer margin-super-upper">
     <div class="container">
         <div class="row p-4">
-            <div class="col-md-4">
+            <div class="col-md-4 padding-mobile">
                 <span class="text-white">
                     +62 21 2854 2835<br/>
                     sales@linovhr.com
                 </span>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-4 padding-mobile">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/images/logo-linovhr.png" alt="">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/images/facebook.png" alt="facebook">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/images/twitter.png" alt="twitter">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/images/linkedin.png" alt="linkedin">
             </div>
-            <div class="col-md-4 text-white text-right">
+            <div class="col-md-4 text-white text-right align-mobile padding-mobile">
                 <span>
                     &copy; Copyright 2017.<br/>
                     Lawencon Intl.<br/>

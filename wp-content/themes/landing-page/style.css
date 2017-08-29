@@ -1,0 +1,305 @@
+/**
+Theme Name: LinovhR Landing Page
+Theme URI: http://www.linovhr.com
+Author: Lani Asep Sutisna
+Author URI: www.ekuiva.com
+Description: Ini adalah template landing page payroll ads untuk project linovhr.
+Version: 1.0
+**/
+/**
+* Table of Content
+*
+* 1. General
+* 2. Homepage
+*    a. Section Header
+*    b. Section Outsource
+*    c. Section Strong Point
+*    d. Pricing
+* 2. Footer
+* 3. Responsive Mobile & Tablet
+*    a. Responsive 0 - 800 Mobile
+*    b. Responsive 800 - 1000 Tablet
+*    c. Responsive 1000 Desktop
+**/
+/**
+* 1. General
+**/
+@import url("assets/css/fonts-style.css");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:focus, a:hover {
+    color: grey !important;
+}
+
+.f-t {
+    font-weight: 200;
+}
+
+.f-l {
+    font-weight: 300;
+}
+
+.f-n {
+    font-weight: 400;
+}
+
+.f-m {
+    font-weight: 500;
+}
+
+.f-b {
+    font-weight: 500;
+}
+
+.blue {
+    color: #42a5f4 !important;
+}
+
+.background-blue {
+    background-color: #03a9f4 !important;
+    color: #fff;
+}
+
+.btn-request:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-request {
+    border-radius: 23px;
+    background-color: #ffffff;
+    font-size: 17px;
+    padding: .78rem 1.5rem;
+    box-shadow: 1px 2px 0px 0px #1e88e5;
+}
+
+.btn-payroll {
+    border-radius: 23px;
+    padding: .78rem 1.5rem;
+    box-shadow: 1px 2px 0px 0px #116ebf;
+    width: 83%;
+    margin-top: -2rem;
+    line-height: 1em;
+    height: 4rem;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.btn-payroll:hover {
+    color: #fff !important;
+}
+
+.btn-payroll:visited {
+    color: #fff !important;
+}
+
+.img-payroll {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.margin-super-upper {
+    margin-top: 5rem;
+}
+
+.margin-upper {
+    margin-top: 3rem;
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+.margin-middle {
+    margin-top: 1rem;
+}
+
+/**
+* 2. Homepage
+**/
+
+/**
+* a. Section Header
+**/
+.bg-header {
+    background: url("assets/images/img-banner.png") no-repeat;
+    background-size: cover;
+    background-position: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-logo {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pt-content {
+    padding-top: 17rem;
+}
+
+/**
+* b. Section Outsource
+**/
+
+/**
+* c. Section Strong Point
+**/
+.bg-strong-point {
+    background: url("assets/images/bg-payroll.png") no-repeat;
+}
+
+/*.bg-item-payroll {*/
+/*background: url("assets/images/bg-item-payroll.png") no-repeat;*/
+/*background-position: center;*/
+/*background-size: 7rem;*/
+/*width: 7rem;*/
+/*height: 7rem;*/
+/*}*/
+
+/*.bg-item-payroll-hover {*/
+/*background: url("assets/images/bg-item-payroll-hover.png") no-repeat;*/
+/*background-position: center;*/
+/*background-size: 7rem;*/
+/*}*/
+.margin-top-payroll {
+    margin-top: 15rem;
+    margin-bottom: 40rem;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: rgba(214, 214, 214, 0);;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: rgba(214, 214, 214, 0);;
+}
+
+.owl-nav {
+    text-align: right !important;
+}
+
+/* Sync Slider*/
+#sync1 .item {
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#sync2 .item {
+    background: url("assets/images/bg-item-payroll.png") no-repeat;
+    background-position: center;
+    background-size: 7rem;
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+#sync2 .item h1 {
+    font-size: 18px;
+}
+
+#sync2 .current .item {
+    background: url("assets/images/bg-item-payroll-hover.png") no-repeat;
+    background-position: center;
+    background-size: 7rem;
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+}
+
+.owl-theme .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+}
+
+#sync1.owl-theme {
+    position: relative;
+}
+
+.owl-carousel .owl-item img {
+    width: 6rem !important;
+	padding-top: 2rem!important;
+}
+
+/**
+* d. Pricing
+**/
+.box-pricing {
+    box-shadow: 0px 2px 4.8px 0.3px rgba(58, 58, 58, 0.75);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box-pricing-blue {
+    background-color: #1e88e5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.idr-pricing > span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.pricing {
+    box-shadow: 1px 2px 0px 0px #135c9c;
+}
+
+/**
+* 2. Footer
+**/
+
+.bg-footer {
+    background-color: #3a3a3a;
+    font-size: 15px;
+}
+
+/**
+* 3. Responsive Mobile & Tablet
+**/
+
+/**
+* a. Responsive 0 - 800 Mobile
+**/
+@media (min-width: 0px) and (max-width: 800px) {
+    /**
+    * a. Header
+    **/
+    .text-header {
+        font-size: 36px;
+    }
+
+    .text-sub-header {
+        font-size: 30px;
+    }
+}
+
+/**
+* b. Responsive 800 - 1000 Tablet
+**/
+@media (min-width: 800px) and (max-width: 1000px) {
+
+}
+
+/**
+* c. Responsive 1000 Desktop
+**/
+@media (min-width: 1000px) {
+
+}
+
